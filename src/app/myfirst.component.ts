@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
     // selector: 'myfirst', transformar o selector em diretiva e retirar a tag myfirst por <div myfirst></div> no app.component.html
-    selector: '[myfirst]',
+    //selector: '[myfirst]', ou transforma-lo em classe utilizando .nomedadiretiva
+    selector: '.myfirst',
     // template: `
     //     <h1>Paulo</h1>
     //     <h2>paulo</h2>
